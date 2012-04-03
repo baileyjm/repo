@@ -12,12 +12,12 @@
 
 ;; parse : s-exp -> WAE
 (define (parse sexp)
-  (...))
+  (num 0))
 
 ;; unparse: WAE -> s-exp
 (define (unparse a-wae)
-  (...))
+  '0)
 
 ;; random-wae : number -> WAE
 (define (random-wae depth)
-  (...))
+  (num 0))
