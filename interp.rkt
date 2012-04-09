@@ -12,7 +12,7 @@
 
 ;; parse : s-exp -> WAE
 (define (parse sexp)
-  (num 0))
+  (num 3))
 
 ;; unparse: WAE -> s-exp
 (define (unparse sexp)
