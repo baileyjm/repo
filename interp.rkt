@@ -19,5 +19,6 @@
   (num 0))
 
 ;; random-wae : number -> WAE
+;; Jeff is working on this
 (define (random-wae depth)
   (num 0))
