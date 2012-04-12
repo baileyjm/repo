@@ -14,22 +14,10 @@
 (define (parse sexp)
   (num 0))
 
-(test (parse '5) (num 5))
-(test (parse (list '+ 5 6))
-      (add (num 5) (num 6)))
-(test (parse (list '- 5 6))
-      (sub (num 5) (num 6)))
-(test (parse (list 'with (list 'x 5) (list '+ 'x 6)))
-      (with 'x (num 5) (add (id 'x) (num 6))))
-(test (parse 'x)
-      (id 'x))
-
-
 ;; unparse: WAE -> s-exp
 (define (unparse sexp)
   (num 0))
 
 ;; random-wae : number -> WAE
-;; Jeff is working on this
 (define (random-wae depth)
   (num 0))
